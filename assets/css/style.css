@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/ashish1.png") top center;
+  background: url("../img/main_image.jpg") top center;
   background-size: cover;
 }
 
@@ -978,4 +978,40 @@ section {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+/* project */
+.modal-dialog-full-width {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  
+}
+
+.modal-header-full-width  {
+  border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+  border-top: 1px solid #9ea2a2 !important;
+}
+.carousel-indicators {
+  bottom: -49px;
+}
+
+/* tabs */
+.img-fluid1{
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
 }
